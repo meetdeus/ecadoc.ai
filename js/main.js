@@ -2898,7 +2898,7 @@ const leaflet = {
     if (!mapContainer) {
       return;
     }
-    const leafletMap = L.map("map").setView([39.8283, -98.5795], 6);
+    const leafletMap = L.map("map").setView([49.2827, -123.1207], 12);
     L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
       maxZoom: 18,
       minZoom: 3
@@ -2907,6 +2907,7 @@ const leaflet = {
       leafletMap.invalidateSize();
     });
     leafletMap.zoomControl.setPosition("bottomright");
+    L.marker([49.2827, -123.1207]).addTo(leafletMap).bindPopup("Ecadoc AI Vancouver Hub");
   }
 };
 document.addEventListener("DOMContentLoaded", () => {
