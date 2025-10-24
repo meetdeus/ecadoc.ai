@@ -1262,7 +1262,8 @@ const tabAnimation = {
       y: 20
     },
     mobile: {
-      activeBg: "#864ffe",
+      activeGradient: "linear-gradient(90deg, #3094F2 0%, #1472C9 100%)",
+      activeBaseColor: "var(--color-primary-500)",
       activeColor: "white",
       activeBorder: "#5a19be",
       scale: 1.05
@@ -1400,7 +1401,8 @@ const tabAnimation = {
       if (isActive) {
         btn.classList.add("mobile-tab-active");
         Object.assign(btn.style, {
-          backgroundColor: mobile.activeBg,
+          backgroundColor: mobile.activeBaseColor,
+          backgroundImage: mobile.activeGradient,
           color: mobile.activeColor,
           borderColor: mobile.activeBorder,
           transform: `scale(${mobile.scale})`
@@ -1546,15 +1548,18 @@ const tabFilter = {
     const updateMobileButtonStates = (buttons, activeIndex) => {
       buttons.forEach((btn, index) => {
         const isActive = index === activeIndex;
+        const gradientValue = tabAnimation.config.mobile.activeGradient;
         if (isActive) {
           btn.classList.add("mobile-filter-active");
-          btn.style.backgroundColor = "#864ffe";
+          btn.style.backgroundColor = tabAnimation.config.mobile.activeBaseColor;
+          btn.style.backgroundImage = gradientValue;
           btn.style.color = "white";
           btn.style.borderColor = "#5a19be";
           btn.style.transform = "scale(1.05)";
         } else {
           btn.classList.remove("mobile-filter-active");
           btn.style.backgroundColor = "";
+          btn.style.backgroundImage = "";
           btn.style.color = "";
           btn.style.borderColor = "";
           btn.style.transform = "";

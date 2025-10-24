@@ -73,13 +73,14 @@
 
 :root, :host {
   --font-inter-tight: "Inter Tight", sans-serif;
-  --color-primary-50: #f4f2fe;
-  --color-primary-100: #ece8ff;
-  --color-primary-200: #dcd4ff;
-  --color-primary-300: #c3b1ff;
-  --color-primary-400: #a585ff;
-  --color-primary-500: #864ffe;
-  --color-primary-600: #7c31f6;
+  --color-primary-50: #cee7ff;
+  --color-primary-100: #b4dbff;
+  --color-primary-200: #96cbfc;
+  --color-primary-300: #51abff;
+  --color-primary-400: #46a6ff;
+  --color-primary-500: #3094f2;
+  --color-primary-gradient: linear-gradient(90deg, #3094f2 0%, #1472c9 100%);
+  --color-primary-600: #00acff;;
   --color-secondary: #1a1a1c;
   --color-accent: #fcfcfc;
   --color-background-1: #fcfcfd;
@@ -115,7 +116,7 @@
   --color-gradient-8: linear-gradient(156deg, #fff 32.92%, #a585ff 91%);
   --color-gradient-9: linear-gradient(156deg, #dfb0ff 32.92%, #fdbedc 91%);
   --color-gradient-11: linear-gradient(179deg, #fff0 0.68%, #fff 79.47%);
-  --color-gradient-12: radial-gradient(73.01% 80.77% at 19.23% 47.79%, #83e7ee 0%, #864ffe00 100%);
+  --color-gradient-12: radial-gradient(73.01% 80.77% at 19.23% 47.79%, #83e7ee 0%, #3094f200 100%);
   --text-heading-1: 4.25rem;
   --text-heading-1--line-height: 110%;
   --text-heading-2: 3.25rem;
@@ -1448,6 +1449,8 @@ body {
   right: calc(var(--spacing) * 0);
   transform-origin: 0;
   background-color: var(--color-primary-500);
+
+  background-image: var(--color-primary-gradient);
   height: 2px;
   transition-property: translate;
   transition-timing-function: var(--tw-ease, var(--default-transition-timing-function));
@@ -8961,6 +8964,8 @@ body {
   .btn-primary {
     border-color: var(--color-primary-600);
     background-color: var(--color-primary-500);
+
+    background-image: var(--color-primary-gradient);
     color: var(--color-white);
     --tw-shadow: 0px 1px 2px 0px var(--tw-shadow-color, #1018280d);
     box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
@@ -9855,6 +9860,8 @@ body {
 
   .bg-primary-500 {
     background-color: var(--color-primary-500);
+
+    background-image: var(--color-primary-gradient);
   }
 
   .bg-red-400 {
@@ -12395,6 +12402,8 @@ body {
 
     .group-hover\:bg-primary-500:is(:where(.group):hover *) {
       background-color: var(--color-primary-500);
+
+      background-image: var(--color-primary-gradient);
     }
 
     .group-hover\:bg-secondary:is(:where(.group):hover *) {
@@ -12495,6 +12504,8 @@ body {
 
     .group-hover\/btn\:bg-primary-500:is(:where(.group\/btn):hover *) {
       background-color: var(--color-primary-500);
+
+      background-image: var(--color-primary-gradient);
     }
 
     .group-hover\/btn\:text-accent:is(:where(.group\/btn):hover *) {
@@ -12536,6 +12547,8 @@ body {
 
   .group-\[\.page-active\]\:bg-primary-500:is(:where(.group).page-active *) {
     background-color: var(--color-primary-500);
+
+    background-image: var(--color-primary-gradient);
   }
 
   .group-\[\.page-active\]\:text-accent:is(:where(.group).page-active *) {
@@ -12950,6 +12963,8 @@ body {
   .before\:bg-primary-500:before {
     content: var(--tw-content);
     background-color: var(--color-primary-500);
+
+    background-image: var(--color-primary-gradient);
   }
 
   .before\:bg-secondary:before {
@@ -13338,6 +13353,8 @@ body {
   .after\:bg-primary-500:after {
     content: var(--tw-content);
     background-color: var(--color-primary-500);
+
+    background-image: var(--color-primary-gradient);
   }
 
   .after\:bg-secondary:after {
@@ -13638,6 +13655,8 @@ body {
     .hover\:btn-primary:hover {
       border-color: var(--color-primary-600);
       background-color: var(--color-primary-500);
+
+      background-image: var(--color-primary-gradient);
       color: var(--color-white);
       --tw-shadow: 0px 1px 2px 0px var(--tw-shadow-color, #1018280d);
       box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
@@ -13765,6 +13784,8 @@ body {
 
     .hover\:bg-primary-500:hover {
       background-color: var(--color-primary-500);
+
+      background-image: var(--color-primary-gradient);
     }
 
     .hover\:bg-secondary:hover {
@@ -13840,7 +13861,7 @@ body {
     }
 
     .hover\:shadow-primary-500\/20:hover {
-      --tw-shadow-color: #864ffe33;
+      --tw-shadow-color: #3094f233;
     }
 
     @supports (color: color-mix(in lab, red, red)) {
@@ -13930,7 +13951,7 @@ body {
   }
 
   .focus\:ring-primary-500\/20:focus {
-    --tw-ring-color: #864ffe33;
+    --tw-ring-color: #3094f233;
   }
 
   @supports (color: color-mix(in lab, red, red)) {
@@ -26131,6 +26152,8 @@ body {
 
     .dark\:group-hover\:bg-primary-500:where(.dark, .dark *):is(:where(.group):hover *) {
       background-color: var(--color-primary-500);
+
+      background-image: var(--color-primary-gradient);
     }
 
     .group-hover\:dark\:bg-background-7:is(:where(.group):hover *):where(.dark, .dark *) {
@@ -26395,6 +26418,8 @@ body {
     .dark\:hover\:btn-primary:where(.dark, .dark *):hover {
       border-color: var(--color-primary-600);
       background-color: var(--color-primary-500);
+
+      background-image: var(--color-primary-gradient);
       color: var(--color-white);
       --tw-shadow: 0px 1px 2px 0px var(--tw-shadow-color, #1018280d);
       box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
@@ -28917,6 +28942,8 @@ svg.leaflet-zoom-animated {
   height: calc(var(--spacing) * 3.5);
   border-color: var(--color-primary-500);
   background-color: var(--color-primary-500);
+
+  background-image: var(--color-primary-gradient);
   border-radius: 3.40282e38px;
 }
 
