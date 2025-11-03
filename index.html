@@ -226,6 +226,9 @@ Hero section
   <div class="main-container">
     <div class="space-y-[40px] md:space-y-[50px] lg:space-y-[60px] xl:space-y-[70px]">
       <div class="flex flex-col items-center">
+        <span data-ns-animate="" data-delay="0.08" class="badge badge-yellow mb-2 md:mb-3 mx-auto">
+          MVP Pilot • Testing Edition
+        </span>
         <span data-ns-animate="" data-delay="0.1" class="badge badge-green mb-3 md:mb-4 lg:mb-5 mx-auto">
           Built for architects, trusted by builders
         </span>
@@ -639,13 +642,15 @@ Pricing section
     </figure>
     <div class="flex relative flex-col items-center text-center">
       <span data-ns-animate="" data-delay="0.2" class="badge badge-blur text-ns-green mb-5">Our Pricing</span>
-      <h2 data-ns-animate="" data-delay="0.3" class="max-w-[650px] mx-auto mb-8 text-white max-md:px-4">
-        Select the pricing plan that best suits
-        <span class="text-primary-500">your needs.</span>
+      <h2 data-ns-animate="" data-delay="0.3" class="max-w-[800px] mx-auto mb-4 text-white max-md:px-4">
+        Pricing plans launching Q3 2026 so join our pilot program today.
       </h2>
+      <!-- Original promo badge hidden during MVP
       <span data-ns-animate="" data-delay="0.4" data-direction="up" data-offset="100" data-start="top 93%" class="badge badge-blur bg-ns-yellow absolute z-30 top-[70%] text-secondary font-normal capitalize text-tagline-2 px-1.5 sm:px-3.5 py-1.5 rounded-[36px] rotate-[20deg] ms-60">
         save 40%
       </span>
+      -->
+      <!-- Pricing toggle hidden during MVP
       <div data-ns-animate="" data-delay="0.5" class="bg-white/20 dark:bg-background-6 py-6 px-14 backdrop-blur-[18px] dark:backdrop-blur-[20px] rounded-full">
         <label class="relative inline-flex items-center cursor-pointer z-[10]">
           <span class="mr-2.5 text-base text-accent font-normal">6 Months</span>
@@ -654,7 +659,14 @@ Pricing section
           <span class="ms-2.5 text-base text-accent font-normal">Yearly</span>
         </label>
       </div>
+      -->
+      <div class="pt-4">
+        <a href="./contact-us-page.html" class="btn btn-primary btn-xl hover:btn-white-v2 dark:hover:btn-accent">
+          <span>Join Pilot Program</span>
+        </a>
+      </div>
     </div>
+    <!-- Visible pricing tiers hidden during MVP
     <div class="relative px-5 sm:px-0">
       <div class="grid grid-cols-1 lg:grid-cols-4 items-start gap-8">
         <div data-ns-animate="" data-delay="0.6" class="bg-background-3 dark:bg-background-7 p-8 rounded-[20px] max-w-[408px] w-full mx-auto">
@@ -988,6 +1000,7 @@ Pricing section
         </div>
       </div>
     </div>
+    -->
   </div>
 </section>
    
@@ -1261,9 +1274,10 @@ Footer v1
           <figure>
             <img src="images/dark-logo.svg" alt="Ecadoc AI logo">
           </figure>
-          <p class="text-accent/60 font-normal text-tagline-1 mt-4 mb-7">
+          <p class="text-accent/60 font-normal text-tagline-1 mt-4 mb-4">
             Ecadoc AI delivers blueprint intelligence for architecture, engineering, and construction teams.
           </p>
+          <span class="badge badge-yellow mb-3">MVP Pilot • Testing Edition</span>
           <div class="flex items-center gap-3">
             <a href="#" class="footer-social-link">
               <span class="sr-only">Facebook</span>
@@ -1285,6 +1299,9 @@ Footer v1
               <img class="size-6" src="images/linkedin.svg" alt="LinkedIn">
             </a>
           </div>
+          <p class="text-accent/80 font-normal text-tagline-1 mt-4">
+            Ecadoc AI is currently operating as an MVP Testing Edition. Certain commercial features (billing, subscriptions, refunds) are inactive during this phase.
+          </p>
         </div>
       </div>
       <div class="col-span-12 xl:col-span-8 grid grid-cols-12 gap-x-0 gap-y-8">
