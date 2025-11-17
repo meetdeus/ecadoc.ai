@@ -1,17 +1,20 @@
-'use client';
+"use client";
 
-import clsx from 'clsx';
-import Link from 'next/link';
-import { useEffect, useState } from 'react';
+import clsx from "clsx";
+import Link from "next/link";
+import { useEffect, useState } from "react";
 
 const navLinks = [
-  { label: 'Home', href: '/#overview' },
-  { label: 'Features', href: '/#capabilities' },
-  { label: 'Pricing', href: '/#pricing' },
-  { label: 'Insights', href: '/#insights' }
+  { label: "Home", href: "/#overview" },
+  { label: "Features", href: "/#capabilities" },
+  { label: "Pricing", href: "/#pricing" },
+  { label: "Insights", href: "/#insights" },
 ];
 
-const secondaryLinks = [...navLinks, { label: 'Contact Sales', href: '/contact' }];
+const secondaryLinks = [
+  ...navLinks,
+  { label: "Contact Sales", href: "/contact" },
+];
 
 export const SiteHeader = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -23,12 +26,12 @@ export const SiteHeader = () => {
     };
 
     handleScroll();
-    window.addEventListener('scroll', handleScroll, { passive: true });
-    return () => window.removeEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   useEffect(() => {
-    document.body.classList.toggle('overflow-hidden', sidebarOpen);
+    document.body.classList.toggle("overflow-hidden", sidebarOpen);
   }, [sidebarOpen]);
 
   const toggleSidebar = () => setSidebarOpen((prev) => !prev);
@@ -37,8 +40,8 @@ export const SiteHeader = () => {
     <header>
       <div
         className={clsx(
-          'header-one opacity-0 rounded-full lp:!max-w-[1290px] xl:max-w-[1140px] lg:max-w-[960px] md:max-w-[720px] sm:max-w-[540px] min-[500px]:max-w-[450px] min-[425px]:max-w-[375px] max-w-[350px] mx-auto w-full fixed left-1/2 -translate-x-1/2 z-50 flex items-center justify-between px-2.5 xl:py-0 py-2.5 bg-white/60 backdrop-blur-[25px] top-5 dark:bg-background-7 dark:border dark:border-stroke-7 max-[400px]:max-w-[340px]',
-          { 'scroll-header': isScrolled }
+          "header-one opacity-0 rounded-full lp:!max-w-[1290px] xl:max-w-[1140px] lg:max-w-[960px] md:max-w-[720px] sm:max-w-[540px] min-[500px]:max-w-[450px] min-[425px]:max-w-[375px] max-w-[350px] mx-auto w-full fixed left-1/2 -translate-x-1/2 z-50 flex items-center justify-between px-2.5 xl:py-0 py-2.5 bg-white/60 backdrop-blur-[25px] top-5 dark:bg-background-7 dark:border dark:border-stroke-7 max-[400px]:max-w-[340px]",
+          { "scroll-header": isScrolled },
         )}
         data-ns-animate
         data-direction="up"
@@ -49,11 +52,23 @@ export const SiteHeader = () => {
           <Link href="/">
             <span className="sr-only">Home</span>
             <figure className="lg:max-w-[198px] lg:block hidden">
-              <img src="/images/main-logo.svg" alt="Ecadoc AI" className="dark:invert" />
+              <img
+                src="/images/main-logo.svg"
+                alt="Ecadoc AI"
+                className="dark:invert"
+              />
             </figure>
             <figure className="max-w-[44px] lg:hidden block">
-              <img src="/images/logo.svg" alt="Ecadoc AI" className="w-full dark:hidden block" />
-              <img src="/images/logo-dark.svg" alt="Ecadoc AI" className="w-full dark:block hidden" />
+              <img
+                src="/images/logo.svg"
+                alt="Ecadoc AI"
+                className="w-full dark:hidden block"
+              />
+              <img
+                src="/images/logo-dark.svg"
+                alt="Ecadoc AI"
+                className="w-full dark:block hidden"
+              />
             </figure>
           </Link>
         </div>
@@ -77,7 +92,10 @@ export const SiteHeader = () => {
           </ul>
         </nav>
         <div className="xl:flex hidden items-center justify-center">
-          <Link href="https://app.ecadoc.ai" className="btn btn-md btn-secondary hover:btn-primary dark:btn-accent border-0">
+          <Link
+            href="https://app.ecadoc.ai"
+            className="btn btn-md btn-secondary hover:btn-primary dark:btn-accent border-0"
+          >
             <span>Start Pilot</span>
           </Link>
         </div>
@@ -97,8 +115,8 @@ export const SiteHeader = () => {
 
       <aside
         className={clsx(
-          'sidebar fixed top-0 right-0 w-full sm:w-1/2 translate-x-full transition-all duration-300 h-screen bg-white dark:bg-background-7 xl:hidden z-[999] scroll-bar',
-          { 'show-sidebar': sidebarOpen }
+          "sidebar fixed top-0 right-0 w-full sm:w-1/2 translate-x-full transition-all duration-300 h-screen bg-white dark:bg-background-7 xl:hidden z-[999] scroll-bar",
+          { "show-sidebar": sidebarOpen },
         )}
         aria-hidden={!sidebarOpen}
       >
@@ -107,8 +125,16 @@ export const SiteHeader = () => {
             <Link href="/">
               <span className="sr-only">Home</span>
               <figure className="max-w-[44px]">
-                <img src="/images/logo.svg" alt="Ecadoc AI" className="w-full dark:hidden block" />
-                <img src="/images/logo-dark.svg" alt="Ecadoc AI" className="w-full dark:block hidden" />
+                <img
+                  src="/images/logo.svg"
+                  alt="Ecadoc AI"
+                  className="w-full dark:hidden block"
+                />
+                <img
+                  src="/images/logo-dark.svg"
+                  alt="Ecadoc AI"
+                  className="w-full dark:block hidden"
+                />
               </figure>
             </Link>
             <button

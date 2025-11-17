@@ -1,45 +1,46 @@
-# Ecadoc AI — Next.js Migration
+# Ecadoc AI Landing Experience
 
-This repo hosts a Next.js 15 App Router rewrite of the Ecadoc AI marketing site. Every legacy HTML page now maps to a typed React route inside `app/` while the original static assets live under `public/`.
+Ecadoc AI is a marketing site for the blueprint-intelligence platform. The site highlights hero messaging, interactive feature stories, animated tool marquees, legal content, and a contact workflow built on top of the Next.js 15 App Router.
 
-## Route mapping
+## Tech Stack
 
-| Legacy file | Next.js route |
-|-------------|---------------|
-| `index.html` | `/` |
-| `contact-us-page.html` | `/contact` |
-| `faq-page.html` | `/faq` |
-| `gdpr-page.html` | `/gdpr` |
-| `privacy-page.html` | `/privacy` |
-| `refund-policy-page.html` | `/refund-policy` |
-| `terms-conditions-page.html` | `/terms` |
-| `{=$bg-gradient-img}.html` | `/bg-gradient-img` |
+- **Next.js 15** with the App Router and TypeScript
+- **React client components** for interactive pieces such as the marquee, accordions, sidebar navigation, and theme toggle
+- **CSS**: original Tailwind-style utility sheet (`styles/legacy.css`) plus small CSS Modules for new tweaks (e.g., theme toggle, marquee)
+- **Leaflet** powers the office map on the contact page
 
-The untouched source files are archived in `legacy-site/` for reference.
+## Project Structure
 
-## Styling strategy
+```
+app/
+  layout.tsx        # Root metadata, providers, header/footer
+  page.tsx          # Landing page
+  contact/...       # Contact form + map
+  faq/...           # FAQ accordions
+  gdpr/, privacy/, refund-policy/, terms/, bg-gradient-img/
+components/
+  SiteHeader, SiteFooter, ThemeToggle, AccordionController, Marquee, ContactMap, Providers
+public/images/      # Optimized marketing assets
+styles/legacy.css   # Global design tokens + utility classes
+```
 
-- Global look-and-feel: the original Tailwind build lives in `styles/legacy.css` and is imported once from `app/layout.tsx` so all class names keep their exact meaning.
-- Targeted tweaks: any new bespoke adjustments use CSS Modules (see `components/theme-toggle.module.css`).
-- Fonts, icons, and other static assets were moved to `public/` to leverage Next's static pipeline.
+### Available Routes
 
-## Shared UI & behavior
+- `/` – primary landing page with hero, capabilities, integrations, pricing teaser, and insight sections
+- `/contact` – contact form, office info, and Leaflet map
+- `/faq`, `/privacy`, `/gdpr`, `/terms`, `/refund-policy` – supporting content pages
+- `/bg-gradient-img` – supporting visual page
 
-- `components/SiteHeader.tsx` and `components/SiteFooter.tsx` consolidate the repeated layout.
-- `components/ThemeToggle.tsx` ports the light/dark toggle via `next-themes`.
-- `components/AccordionController.tsx` wires up the FAQ accordions without the old imperative script.
-- `components/ContactMap.tsx` recreates the Leaflet map via a lazy client hook.
-
-## Running locally
+## Running Locally
 
 ```bash
 npm install
-npm run dev   # start dev server on http://localhost:3000
-npm run lint  # ESLint (Next config)
-npm run build # production build
+npm run dev    # http://localhost:3000 (or the next available port)
+npm run lint   # ESLint (Next config)
+npm run build  # Production bundle
 ```
 
-## Known limitations / follow-ups
+## Notes
 
-- The original GSAP/Lenis scroll animations are not mounted. If you rely on those motion cues, porting `legacy-site/js/main.js` into modular hooks would be the next step.
-- Some legacy template links (e.g., additional "home-page-X" demos on `/bg-gradient-img`) still point to their original filenames because corresponding screens were not part of the provided source.
+- Animations (hero lines, marquees, header reveals, etc.) are implemented with lightweight IntersectionObserver/CSS transitions for instant load performance.
+- Additional interactive sections from the design system can be added by dropping their markup into `app/` and wiring them to the shared controllers/components.
