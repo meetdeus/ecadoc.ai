@@ -5,19 +5,17 @@ export const metadata: Metadata = {
   title: "Ecadoc AI — Intelligent Blueprint Reader",
   description:
     "Ecadoc AI understands architectural drawings in seconds. Ask questions, extract measurements, and auto-annotate PDFs, CAD exports, and scans with vision-grade accuracy.",
-  alternates: { canonical: "https:,
+  alternates: { canonical: "https://www.ecadoc.ai/faq" },
 };
 
 const FaqPage = () => (
   <>
     <main className="bg-background-3 dark:bg-background-7">
-      {}
       <section
         className="xl:pt-[180px] md:pt-42 sm:pt-36 pt-32"
         aria-label="Page hero section"
       >
         <div className="main-container">
-          {}
           <div className="text-center space-y-2 pb-14 lg:pb-[72px]">
             <span
               data-ns-animate
@@ -48,10 +46,8 @@ const FaqPage = () => (
           </div>
         </div>
       </section>
-      {}
       <section className="py-[100px]">
         <div className="main-container">
-          {}
           <div className="text-center space-y-5">
             <span data-ns-animate data-delay="0.2" className="badge badge-cyan">
               FAQ
@@ -71,17 +67,13 @@ const FaqPage = () => (
               </p>
             </div>
           </div>
-          {}
-          {}
           <div className="py-[70px]">
-            {}
             <div
               role="tablist"
               data-ns-animate
               data-delay="0.5"
               className="hidden md:flex tab-bar justify-center items-center border-b border-stroke-2 dark:border-stroke-6 relative"
             >
-              {}
               <div className="active-tab-bar" />
               <button className="py-3 cursor-pointer focus-visible:outline-0 px-10 -mb-px data-[state=selected]:text-secondary text-secondary/60 dark:data-[state=selected]:text-accent dark:text-accent/60">
                 <span className="text-tagline-1 font-medium">General</span>
@@ -95,7 +87,6 @@ const FaqPage = () => (
                 </span>
               </button>
             </div>
-            {}
             <div className="tab-mobile flex items-center flex-wrap md:hidden gap-4">
               <button className="px-3.5 py-2 min-w-16 text-tagline-2 font-medium text-secondary/60 dark:text-accent/60 border border-stroke-2 dark:border-stroke-7 rounded-full dark:bg-background-7">
                 General
@@ -108,14 +99,11 @@ const FaqPage = () => (
               </button>
             </div>
           </div>
-          {}
-          {}
           <div data-ns-animate data-delay="0.6" data-instant>
             <div
               className="tab-content max-w-[850px] mx-auto space-y-4"
               data-display="block"
             >
-              {}
               <div className="accordion-item active-accordion bg-background-1 dark:bg-background-6 rounded-[20px] px-8">
                 <button className="accordion-action flex items-center cursor-pointer justify-between pt-8 pb-8 w-full">
                   <span className="flex-1 text-left text-heading-6 font-normal text-secondary dark:text-accent">
@@ -153,7 +141,6 @@ const FaqPage = () => (
                   </div>
                 </div>
               </div>
-              {}
               <div className="accordion-item bg-background-1 dark:bg-background-6 rounded-[20px] px-8">
                 <button className="accordion-action flex items-center cursor-pointer justify-between pt-8 pb-8 w-full">
                   <span className="flex-1 text-left text-heading-6 font-normal text-secondary dark:text-accent">
@@ -192,7 +179,6 @@ const FaqPage = () => (
                   </div>
                 </div>
               </div>
-              {}
               <div className="accordion-item bg-background-1 dark:bg-background-6 rounded-[20px] px-8">
                 <button className="accordion-action flex items-center cursor-pointer justify-between pt-8 pb-8 w-full">
                   <span className="flex-1 text-left text-heading-6 font-normal text-secondary dark:text-accent">
@@ -231,7 +217,6 @@ const FaqPage = () => (
                   </div>
                 </div>
               </div>
-              {}
               <div className="accordion-item bg-background-1 dark:bg-background-6 rounded-[20px] px-8">
                 <button className="accordion-action flex items-center cursor-pointer justify-between pt-8 pb-8 w-full">
                   <span className="flex-1 text-left text-heading-6 font-normal text-secondary dark:text-accent">
@@ -269,7 +254,6 @@ const FaqPage = () => (
                   </div>
                 </div>
               </div>
-              {}
               <div className="accordion-item bg-background-1 dark:bg-background-6 rounded-[20px] px-8">
                 <button className="accordion-action flex items-center cursor-pointer justify-between pt-8 pb-8 w-full">
                   <span className="flex-1 text-left text-heading-6 font-normal text-secondary dark:text-accent">
@@ -308,7 +292,6 @@ const FaqPage = () => (
                   </div>
                 </div>
               </div>
-              {}
               <div className="accordion-item bg-background-1 dark:bg-background-6 rounded-[20px] px-8">
                 <button className="accordion-action flex items-center cursor-pointer justify-between pt-8 pb-8 w-full">
                   <span className="flex-1 text-left text-heading-6 font-normal text-secondary dark:text-accent">
@@ -348,21 +331,16 @@ const FaqPage = () => (
               </div>
             </div>
           </div>
-          {}
-          {}
           <div data-ns-animate data-delay="0.6" data-instant>
             <div
               className="tab-content max-w-[850px] mx-auto space-y-4"
               data-display="block"
             >
-              {}
               <div className="accordion-item active-accordion bg-background-1 dark:bg-background-6 rounded-[20px] px-8">
-                {}
                 <button className="accordion-action flex items-center cursor-pointer justify-between pt-8 pb-8 w-full">
                   <span className="flex-1 text-left text-heading-6 font-normal text-secondary dark:text-accent">
                     What drawing files can I upload to Ecadoc AI?
                   </span>
-                  {}
                   <span className="sm:ml-auto ml-2.5 block accordion-arrow">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -383,7 +361,6 @@ const FaqPage = () => (
                     </svg>
                   </span>
                 </button>
-                {}
                 <div className="accordion-content">
                   <div className="border-t border-t-stroke-2 dark:border-t-stroke-6 pt-6 pb-8">
                     <p>
@@ -398,14 +375,11 @@ const FaqPage = () => (
                   </div>
                 </div>
               </div>
-              {}
               <div className="accordion-item bg-background-1 dark:bg-background-6 rounded-[20px] px-8">
-                {}
                 <button className="accordion-action flex items-center cursor-pointer justify-between pt-8 pb-8 w-full">
                   <span className="flex-1 text-left text-heading-6 font-normal text-secondary dark:text-accent">
                     How fast does Ecadoc process a typical drawing set?
                   </span>
-                  {}
                   <span className="sm:ml-auto ml-2.5 block accordion-arrow">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -426,7 +400,6 @@ const FaqPage = () => (
                     </svg>
                   </span>
                 </button>
-                {}
                 <div className="accordion-content">
                   <div className="border-t border-t-stroke-2 dark:border-t-stroke-6 pt-6 pb-8">
                     <p>
@@ -441,14 +414,11 @@ const FaqPage = () => (
                   </div>
                 </div>
               </div>
-              {}
               <div className="accordion-item bg-background-1 dark:bg-background-6 rounded-[20px] px-8">
-                {}
                 <button className="accordion-action flex items-center cursor-pointer justify-between pt-8 pb-8 w-full">
                   <span className="flex-1 text-left text-heading-6 font-normal text-secondary dark:text-accent">
                     Can we pilot Ecadoc without connecting our project systems?
                   </span>
-                  {}
                   <span className="sm:ml-auto ml-2.5 block accordion-arrow">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -469,7 +439,6 @@ const FaqPage = () => (
                     </svg>
                   </span>
                 </button>
-                {}
                 <div className="accordion-content">
                   <div className="border-t border-t-stroke-2 dark:border-t-stroke-6 pt-6 pb-8">
                     <p>
@@ -484,14 +453,11 @@ const FaqPage = () => (
                   </div>
                 </div>
               </div>
-              {}
               <div className="accordion-item bg-background-1 dark:bg-background-6 rounded-[20px] px-8">
-                {}
                 <button className="accordion-action flex items-center cursor-pointer justify-between pt-8 pb-8 w-full">
                   <span className="flex-1 text-left text-heading-6 font-normal text-secondary dark:text-accent">
                     How does Ecadoc maintain measurement accuracy across sheets?
                   </span>
-                  {}
                   <span className="sm:ml-auto ml-2.5 block accordion-arrow">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -512,7 +478,6 @@ const FaqPage = () => (
                     </svg>
                   </span>
                 </button>
-                {}
                 <div className="accordion-content">
                   <div className="border-t border-t-stroke-2 dark:border-t-stroke-6 pt-6 pb-8">
                     <p>
@@ -526,14 +491,11 @@ const FaqPage = () => (
                   </div>
                 </div>
               </div>
-              {}
               <div className="accordion-item bg-background-1 dark:bg-background-6 rounded-[20px] px-8">
-                {}
                 <button className="accordion-action flex items-center cursor-pointer justify-between pt-8 pb-8 w-full">
                   <span className="flex-1 text-left text-heading-6 font-normal text-secondary dark:text-accent">
                     How does Ecadoc keep everyone aligned during coordination?
                   </span>
-                  {}
                   <span className="sm:ml-auto ml-2.5 block accordion-arrow">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -554,7 +516,6 @@ const FaqPage = () => (
                     </svg>
                   </span>
                 </button>
-                {}
                 <div className="accordion-content">
                   <div className="border-t border-t-stroke-2 dark:border-t-stroke-6 pt-6 pb-8">
                     <p>
@@ -568,14 +529,11 @@ const FaqPage = () => (
                   </div>
                 </div>
               </div>
-              {}
               <div className="accordion-item bg-background-1 dark:bg-background-6 rounded-[20px] px-8">
-                {}
                 <button className="accordion-action flex items-center cursor-pointer justify-between pt-8 pb-8 w-full">
                   <span className="flex-1 text-left text-heading-6 font-normal text-secondary dark:text-accent">
                     What does onboarding with Ecadoc usually look like?
                   </span>
-                  {}
                   <span className="sm:ml-auto ml-2.5 block accordion-arrow">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -596,7 +554,6 @@ const FaqPage = () => (
                     </svg>
                   </span>
                 </button>
-                {}
                 <div className="accordion-content">
                   <div className="border-t border-t-stroke-2 dark:border-t-stroke-6 pt-6 pb-8">
                     <p>
@@ -613,21 +570,16 @@ const FaqPage = () => (
               </div>
             </div>
           </div>
-          {}
-          {}
           <div data-ns-animate data-delay="0.6" data-instant>
             <div
               className="tab-content max-w-[850px] mx-auto space-y-4"
               data-display="block"
             >
-              {}
               <div className="accordion-item active-accordion bg-background-1 dark:bg-background-6 rounded-[20px] px-8">
-                {}
                 <button className="accordion-action flex items-center cursor-pointer justify-between pt-8 pb-8 w-full">
                   <span className="flex-1 text-left text-heading-6 font-normal text-secondary dark:text-accent">
                     What do Ecadoc’s terms and conditions cover?
                   </span>
-                  {}
                   <span className="sm:ml-auto ml-2.5 block accordion-arrow">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -648,7 +600,6 @@ const FaqPage = () => (
                     </svg>
                   </span>
                 </button>
-                {}
                 <div className="accordion-content">
                   <div className="border-t border-t-stroke-2 dark:border-t-stroke-6 pt-6 pb-8">
                     <p>
@@ -660,14 +611,11 @@ const FaqPage = () => (
                   </div>
                 </div>
               </div>
-              {}
               <div className="accordion-item bg-background-1 dark:bg-background-6 rounded-[20px] px-8">
-                {}
                 <button className="accordion-action flex items-center cursor-pointer justify-between pt-8 pb-8 w-full">
                   <span className="flex-1 text-left text-heading-6 font-normal text-secondary dark:text-accent">
                     Why must our team accept the terms?
                   </span>
-                  {}
                   <span className="sm:ml-auto ml-2.5 block accordion-arrow">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -688,7 +636,6 @@ const FaqPage = () => (
                     </svg>
                   </span>
                 </button>
-                {}
                 <div className="accordion-content">
                   <div className="border-t border-t-stroke-2 dark:border-t-stroke-6 pt-6 pb-8">
                     <p>
@@ -700,14 +647,11 @@ const FaqPage = () => (
                   </div>
                 </div>
               </div>
-              {}
               <div className="accordion-item bg-background-1 dark:bg-background-6 rounded-[20px] px-8">
-                {}
                 <button className="accordion-action flex items-center cursor-pointer justify-between pt-8 pb-8 w-full">
                   <span className="flex-1 text-left text-heading-6 font-normal text-secondary dark:text-accent">
                     What happens if someone violates the terms?
                   </span>
-                  {}
                   <span className="sm:ml-auto ml-2.5 block accordion-arrow">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -728,7 +672,6 @@ const FaqPage = () => (
                     </svg>
                   </span>
                 </button>
-                {}
                 <div className="accordion-content">
                   <div className="border-t border-t-stroke-2 dark:border-t-stroke-6 pt-6 pb-8">
                     <p>
@@ -740,14 +683,11 @@ const FaqPage = () => (
                   </div>
                 </div>
               </div>
-              {}
               <div className="accordion-item bg-background-1 dark:bg-background-6 rounded-[20px] px-8">
-                {}
                 <button className="accordion-action flex items-center cursor-pointer justify-between pt-8 pb-8 w-full">
                   <span className="flex-1 text-left text-heading-6 font-normal text-secondary dark:text-accent">
                     Where can we review the complete agreement?
                   </span>
-                  {}
                   <span className="sm:ml-auto ml-2.5 block accordion-arrow">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -768,7 +708,6 @@ const FaqPage = () => (
                     </svg>
                   </span>
                 </button>
-                {}
                 <div className="accordion-content">
                   <div className="border-t border-t-stroke-2 dark:border-t-stroke-6 pt-6 pb-8">
                     <p>
@@ -780,14 +719,11 @@ const FaqPage = () => (
                   </div>
                 </div>
               </div>
-              {}
               <div className="accordion-item bg-background-1 dark:bg-background-6 rounded-[20px] px-8">
-                {}
                 <button className="accordion-action flex items-center cursor-pointer justify-between pt-8 pb-8 w-full">
                   <span className="flex-1 text-left text-heading-6 font-normal text-secondary dark:text-accent">
                     Which activities are prohibited under your terms?
                   </span>
-                  {}
                   <span className="sm:ml-auto ml-2.5 block accordion-arrow">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -808,7 +744,6 @@ const FaqPage = () => (
                     </svg>
                   </span>
                 </button>
-                {}
                 <div className="accordion-content">
                   <div className="border-t border-t-stroke-2 dark:border-t-stroke-6 pt-6 pb-8">
                     <p>
@@ -821,14 +756,11 @@ const FaqPage = () => (
                   </div>
                 </div>
               </div>
-              {}
               <div className="accordion-item bg-background-1 dark:bg-background-6 rounded-[20px] px-8">
-                {}
                 <button className="accordion-action flex items-center cursor-pointer justify-between pt-8 pb-8 w-full">
                   <span className="flex-1 text-left text-heading-6 font-normal text-secondary dark:text-accent">
                     How will we learn about updates to the terms?
                   </span>
-                  {}
                   <span className="sm:ml-auto ml-2.5 block accordion-arrow">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -849,7 +781,6 @@ const FaqPage = () => (
                     </svg>
                   </span>
                 </button>
-                {}
                 <div className="accordion-content">
                   <div className="border-t border-t-stroke-2 dark:border-t-stroke-6 pt-6 pb-8">
                     <p>
@@ -865,11 +796,9 @@ const FaqPage = () => (
           </div>
         </div>
       </section>
-      {}
       <section className="pt-[100px] pb-[200px]">
         <div className="main-container">
           <div className="space-y-[70px]">
-            {}
             <div className="main-w-[850px] md:w-full mx-auto text-center space-y-5">
               <span
                 data-ns-animate
@@ -892,14 +821,12 @@ const FaqPage = () => (
                 </p>
               </div>
             </div>
-            {}
             <div
               data-ns-animate
               data-delay="0.5"
               className="contact-form max-w-[850px] md:w-full mx-auto bg-white dark:bg-background-6 rounded-[20px] p-5 sm:p-[42px]"
             >
               <form action="/index.html" method="POST">
-                {}
                 <div className="space-y-2 mb-8">
                   <label
                     htmlFor="fullname"
@@ -917,7 +844,6 @@ const FaqPage = () => (
                     className="w-full px-[18px] shadow-1 dark:text-accent dark:bg-background-6 py-2 rounded-full border border-stroke-3 dark:border-stroke-6 bg-background-1 text-tagline-1 dark:placeholder:text-accent/60 placeholder:text-secondary/60 focus:outline-none focus:border-primary-500 placeholder:text-tagline-1 placeholder:font-normal font-normal"
                   />
                 </div>
-                {}
                 <div className="space-y-2 mb-8">
                   <label
                     htmlFor="email"
@@ -935,7 +861,6 @@ const FaqPage = () => (
                     className="w-full px-[18px] py-2 dark:text-accent rounded-full border dark:bg-background-6 border-stroke-3 dark:border-stroke-6 bg-background-1 text-tagline-1 dark:placeholder:text-accent/60 placeholder:text-secondary/60 focus:outline-none focus:border-primary-500 placeholder:text-tagline-1 placeholder:font-normal font-normal"
                   />
                 </div>
-                {}
                 <div className="space-y-2 mb-4">
                   <label
                     htmlFor="message"
@@ -953,7 +878,6 @@ const FaqPage = () => (
                     defaultValue={""}
                   />
                 </div>
-                {}
                 <fieldset className="flex items-center gap-2 mb-4">
                   <label htmlFor="terms" className="flex items-center gap-x-3">
                     <input
@@ -977,7 +901,6 @@ const FaqPage = () => (
                     </a>
                   </label>
                 </fieldset>
-                {}
                 <button
                   type="submit"
                   className="btn btn-md btn-secondary dark:btn-accent w-full before:content-none first-letter:uppercase hover:btn-primary"
@@ -989,7 +912,6 @@ const FaqPage = () => (
           </div>
         </div>
       </section>
-      {}
       <section className="pb-14 pt-14 md:pb-16 md:pt-16 lg:pb-[88px] lg:pt-[88px] xl:pb-[100px] xl:pt-[100px] bg-background-2 dark:bg-background-5">
         <div className="main-container">
           <div className="text-center">

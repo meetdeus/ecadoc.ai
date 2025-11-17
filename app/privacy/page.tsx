@@ -4,7 +4,7 @@ export const metadata: Metadata = {
   title: "Ecadoc AI — Intelligent Blueprint Reader",
   description:
     "Ecadoc AI understands architectural drawings in seconds. Ask questions, extract measurements, and auto-annotate PDFs, CAD exports, and scans with vision-grade accuracy.",
-  alternates: { canonical: "https:,
+  alternates: { canonical: "https://www.ecadoc.ai/privacy" },
 };
 
 const PrivacyPage = () => (

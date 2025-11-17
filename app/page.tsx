@@ -2,7 +2,6 @@ import { Marquee } from "@/components/Marquee";
 
 const HomePage = () => (
   <main className="bg-background-2 dark:bg-background-7">
-    {}
     <section
       id="overview"
       className="hero-section pt-[160px] lg:pt-[180px] xl:pt-[228px] bg-background-3 dark:bg-background-7 relative z-10 overflow-hidden"
@@ -127,7 +126,6 @@ const HomePage = () => (
               </li>
             </ul>
           </div>
-          {}
           <div className="px-4 md:px-6 lg:px-8 xl:px-0">
             <figure className="hero-perspective opacity-0">
               <img
@@ -140,7 +138,6 @@ const HomePage = () => (
         </div>
       </div>
     </section>
-    {}
     <section
       id="capabilities"
       className="pt-14 md:pt-16 lg:pt-[88px] xl:pt-[100px] pb-14 md:pb-16 lg:pb-[88px] xl:pb-[100px]"
@@ -169,9 +166,7 @@ const HomePage = () => (
             and receive measurements, markups, and context instantly.
           </p>
         </div>
-        {}
         <div className="grid grid-cols-12 gap-y-8 gap-x-4 md:gap-x-6 lg:gap-x-[42px]">
-          {}
           <article
             data-ns-animate
             data-delay="0.4"
@@ -217,7 +212,6 @@ const HomePage = () => (
                   </div>
                 </div>
               </div>
-              {}
               <h4 className="font-normal text-heading-6 md:text-heading-5 mb-2">
                 Drawings ready on arrival
               </h4>
@@ -228,13 +222,11 @@ const HomePage = () => (
               </p>
             </div>
           </article>
-          {}
           <article
             data-ns-animate
             data-delay="0.5"
             className="col-span-12 group lg:col-span-6 xl:col-span-4 relative overflow-hidden rounded-[20px]"
           >
-            {}
             <figure className="absolute rotate-[44deg] size-[560px] md:size-[900px] lg:size-[650px] xl:size-[560px] bottom-[-266px] left-[-81px] lg:bottom-[-319px] xl:bottom-[-266px] md:bottom-[-445px] overflow-hidden select-none pointer-events-none">
               <img
                 src="/images/gradient-17.png"
@@ -272,8 +264,6 @@ const HomePage = () => (
                     </p>
                   </li>
                   <li className="flex items-center gap-[18px]">
-                    {}
-                    {}
                   </li>
                 </ul>
                 <div className="flex items-start gap-6">
@@ -309,7 +299,6 @@ const HomePage = () => (
               </div>
             </div>
           </article>
-          {}
           <article
             data-ns-animate
             data-delay="0.6"
@@ -317,7 +306,6 @@ const HomePage = () => (
           >
             <div className="bg-white dark:bg-background-6 rounded-[20px] px-4 md:px-6 pt-4 md:pt-6 pb-4 md:pb-8 w-full h-full">
               <div className="bg-background-3 dark:bg-background-7 rounded-2xl grid grid-cols-2 gap-4 p-4 mb-8">
-                {}
                 <div className="bg-white dark:bg-background-5 flex flex-col justify-center rounded-xl px-2.5 py-[26px]">
                   <figure className="flex items-start mb-2 gap-2">
                     <img src="/images/user.svg" alt="User" />
@@ -329,7 +317,6 @@ const HomePage = () => (
                     2,490 Sheets
                   </p>
                 </div>
-                {}
                 <div className="bg-secondary dark:bg-background-6 flex flex-col justify-center rounded-xl -rotate-[10deg] lg:-rotate-[20deg] px-2.5 py-[26px] group-hover:rotate-0 transition-transform duration-300 ease-[cubic-bezier(0.8, 0, 0.2, 9)]">
                   <figure className="flex items-start mb-2 gap-2">
                     <img src="/images/weixin-favorites.svg" alt="Orders" />
@@ -341,7 +328,6 @@ const HomePage = () => (
                     11,559 Markups
                   </p>
                 </div>
-                {}
                 <div className="bg-white dark:bg-background-5 flex flex-col justify-center rounded-xl px-2.5 py-[26px]">
                   <figure className="flex items-start mb-2 gap-2">
                     <img src="/images/project.svg" alt="User" />
@@ -353,7 +339,6 @@ const HomePage = () => (
                     490 Syncs
                   </p>
                 </div>
-                {}
                 <div className="bg-white dark:bg-background-5 flex flex-col justify-center rounded-xl px-2.5 py-[26px]">
                   <figure className="flex items-start mb-2 gap-2">
                     <img src="/images/user-v2.svg" alt="User" />
@@ -366,7 +351,6 @@ const HomePage = () => (
                   </p>
                 </div>
               </div>
-              {}
               <h6 className="font-normal text-heading-6 md:text-heading-5 mb-2">
                 Collaboration without friction
               </h6>
@@ -379,13 +363,11 @@ const HomePage = () => (
         </div>
       </div>
     </section>
-    {}
     <section
       id="automation"
       className="pt-14 md:pt-16 lg:pt-[88px] xl:pt-[100px] pb-24 md:pb-24 lg:pb-[140px] xl:pb-[150px]"
     >
       <div className="main-container space-y-[220px] md:space-y-[300px] xl:space-y-[300px]">
-        {}
         <div className="flex flex-col gap-x-5 lg:gap-x-20 gap-y-28 sm:gap-y-24 md:gap-y-20 items-start lg:flex-row justify-between">
           <div className="w-full lg:w-1/2">
             <div className="space-y-3 mb-10 lg:mb-14 text-center md:text-left px-4 sm:px-0">
@@ -482,7 +464,6 @@ const HomePage = () => (
             </div>
           </div>
         </div>
-        {}
         <div className="flex flex-col-reverse gap-x-5 md:gap-x-10 lg:gap-x-16 2xl:gap-x-24 gap-y-28 sm:gap-y-24 md:gap-y-20 items-center lg:items-start lg:flex-row-reverse justify-between">
           <div className="w-full lg:w-1/2">
             <div className="space-y-3 mb-8 lg:mb-14 text-center md:text-left px-4 sm:px-0">
@@ -500,9 +481,7 @@ const HomePage = () => (
                 stays audit-ready.
               </p>
             </div>
-            {}
           </div>
-          {}
           <div className="relative -mt-20 md:-mt-36 w-full lg:w-1/2">
             <figure
               data-ns-animate
@@ -515,12 +494,10 @@ const HomePage = () => (
                 className="w-full h-full object-cover object-center"
               />
             </figure>
-            {}
           </div>
         </div>
       </div>
     </section>
-    {}
     <section
       id="integrations"
       className="pt-14 md:pt-16 lg:pt-[88px] xl:pt-[100px] pb-24 md:pb-24 lg:pb-[140px] xl:pb-[200px]"
@@ -629,8 +606,6 @@ const HomePage = () => (
         </article>
       </div>
     </section>
-    {}
-    {}
     <section
       id="pricing"
       className="pt-14 md:pt-16 lg:pt-[88px] xl:pt-[100px] pb-14 md:pb-16 lg:pb-[88px] xl:pb-[100px] max-2xl:px-4"
@@ -664,8 +639,6 @@ const HomePage = () => (
           >
             Pricing plans launching Q3 2026 so join our pilot program today.
           </h2>
-          {}
-          {}
           <div className="pt-4">
             <a
               href="/contact"
@@ -675,7 +648,6 @@ const HomePage = () => (
             </a>
           </div>
         </div>
-        {}
       </div>
     </section>
     <section
@@ -683,7 +655,6 @@ const HomePage = () => (
       className="bg-background-3 dark:bg-background-7 pt-16 md:pt-24 lg:pt-[150px] xl:pt-[200px] pb-16 md:pb-24 lg:pb-[150px] xl:pb-[200px]"
     >
       <div className="main-container">
-        {}
         <div className="text-center mb-10 md:mb-[70px]">
           <span
             data-ns-animate
@@ -716,7 +687,6 @@ const HomePage = () => (
             className="flex justify-center items-center mx-auto"
           >
             <div className="p-2.5 max-w-[756px] rounded-4xl relative z-10 overflow-hidden">
-              {}
               <figure className="absolute left-[-35%] -z-10 top-[-63%] w-[630px] md:w-[1030px] select-none pointer-events-none">
                 <img
                   src="/images/gradient-36.png"
@@ -812,7 +782,6 @@ const HomePage = () => (
               />
             </figure>
           </div>
-          {}
           <div
             data-ns-animate
             data-delay="0.5"
@@ -838,9 +807,6 @@ const HomePage = () => (
         </div>
       </div>
     </section>
-    {}
-    {}
-    {}
     <section className="pb-14 pt-14 md:pb-16 md:pt-16 lg:pb-[88px] lg:pt-[88px] xl:pb-[100px] xl:pt-[100px] bg-background-2 dark:bg-background-5">
       <div className="main-container">
         <div className="text-center">

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Contact Ecadoc AI — Vancouver Blueprint Intelligence Hub",
   description:
     "Connect with Ecadoc AI in Vancouver, BC. Schedule a demo, request pricing, or chat with our document intelligence team about secure blueprint analytics.",
-  alternates: { canonical: "https:,
+  alternates: { canonical: "https://www.ecadoc.ai/contact" },
   openGraph: {
     type: "website",
     url: "https://www.ecadoc.ai/contact",
@@ -29,19 +29,17 @@ export const metadata: Metadata = {
     title: "Contact Ecadoc AI — Secure Blueprint Intelligence",
     description:
       "Book time with the Ecadoc AI team in Vancouver to explore secure blueprint storage, AI measurement, and markup automation.",
-    images: ["https:
+    images: ["https://www.ecadoc.ai/social/ecadoc-card.jpg"],
   },
 };
 
 const ContactPage = () => (
   <main className="bg-background-3 dark:bg-background-7">
-    {}
     <section
       className="xl:pt-[180px] md:pt-42 sm:pt-36 pt-32 pt-24 md:pt-36 lg:pt-40 xl:pt-[200px]"
       aria-label="Page hero section"
     >
       <div className="main-container">
-        {}
         <div className="text-center space-y-2 pb-14 lg:pb-[72px]">
           <span
             data-ns-animate
@@ -80,14 +78,12 @@ const ContactPage = () => (
         </div>
       </div>
     </section>
-    {}
     <section
       className="pt-7 pb-14 md:pb-16 lg:pb-20 xl:pb-[100px]"
       aria-label="Contact Information and Form"
     >
       <div className="main-container">
         <div className="space-y-[70px]">
-          {}
           <div className="max-w-[680px] mx-auto text-center space-y-3">
             <h2 data-ns-animate data-delay="0.2">
               Partner with our Vancouver blueprint intelligence team.
@@ -99,15 +95,12 @@ const ContactPage = () => (
             </p>
           </div>
           <div className="flex lg:items-start flex-col justify-center items-center gap-10 lg:flex-row lg:gap-8 xl:gap-[70px]">
-            {}
             <div
               data-ns-animate
               data-delay="0.4"
               className="flex flex-col gap-8 md:flex-row lg:flex-col"
             >
-              {}
               <div className="bg-secondary dark:bg-background-6 rounded-[20px] p-11 space-y-6 w-full md:max-w-[371px] text-center relative overflow-hidden">
-                {}
                 <figure className="absolute select-none pointer-events-none size-[350px] overflow-hidden top-[-187px] left-[174px] -rotate-[78deg]">
                   <img
                     src="/images/gradient-22.png"
@@ -127,9 +120,7 @@ const ContactPage = () => (
                   <p className="text-accent/60">Vancouver canada</p>
                 </div>
               </div>
-              {}
               <div className="card-item bg-secondary dark:bg-background-6 rounded-[20px] p-11 w-full md:max-w-[371px] text-center relative overflow-hidden">
-                {}
                 <figure className="absolute size-[350px] select-none pointer-events-none overflow-hidden top-[-206px] left-[-36px] rotate-[62deg]">
                   <img
                     src="/images/gradient-17.png"
@@ -155,9 +146,7 @@ const ContactPage = () => (
                   </div>
                 </div>
               </div>
-              {}
               <div className="bg-secondary dark:bg-background-6 rounded-[20px] p-11 w-full md:max-w-[371px] text-center relative overflow-hidden">
-                {}
                 <figure className="size-[450px] top-[-264px] left-[-255px] absolute select-none pointer-events-none">
                   <img
                     src="/images/gradient-6.png"
@@ -181,16 +170,13 @@ const ContactPage = () => (
                 </div>
               </div>
             </div>
-            {}
             <div
               data-ns-animate
               data-delay="0.3"
               className="max-w-[847px] w-full mx-auto bg-white dark:bg-background-6 rounded-4xl p-6 md:p-8 lg:p-11"
             >
               <form action="/index.html" method="POST" className="space-y-8">
-                {}
                 <div className="flex items-center flex-col md:flex-row gap-8 justify-between">
-                  {}
                   <div className="space-y-2 lg:max-w-[364px] w-full">
                     <label
                       htmlFor="fullname"
@@ -208,7 +194,6 @@ const ContactPage = () => (
                       className="w-full px-[18px] dark:focus-visible:border-stroke-4/20 dark:border-stroke-7 py-3 h-[48px] xl:h-[41px] rounded-full dark:bg-background-6 border border-stroke-3 bg-background-1 text-tagline-2 placeholder:text-secondary/60 focus:outline-none focus:border-secondary placeholder:text-tagline-2 dark:placeholder:text-accent/60 dark:text-accent placeholder:font-normal font-normal"
                     />
                   </div>
-                  {}
                   <div className="space-y-2 max-w-[364px] w-full">
                     <label
                       htmlFor="number"
@@ -227,7 +212,6 @@ const ContactPage = () => (
                     />
                   </div>
                 </div>
-                {}
                 <div className="space-y-2">
                   <label
                     htmlFor="email"
@@ -245,7 +229,6 @@ const ContactPage = () => (
                     className="w-full px-[18px] dark:focus-visible:border-stroke-4/20 dark:border-stroke-7 py-3 h-[48px] xl:h-[41px] rounded-full dark:bg-background-6 border border-stroke-3 bg-background-1 text-tagline-2 placeholder:text-secondary/60 focus:outline-none focus:border-secondary placeholder:text-tagline-2 dark:placeholder:text-accent/60 dark:text-accent placeholder:font-normal font-normal"
                   />
                 </div>
-                {}
                 <div className="space-y-2">
                   <label
                     htmlFor="subject"
@@ -262,7 +245,6 @@ const ContactPage = () => (
                     className="w-full px-[18px] dark:focus-visible:border-stroke-4/20 dark:border-stroke-7 py-3 h-[48px] xl:h-[41px] rounded-full dark:bg-background-6 border border-stroke-3 bg-background-1 text-tagline-2 placeholder:text-secondary/60 focus:outline-none focus:border-secondary placeholder:text-tagline-2 dark:placeholder:text-accent/60 dark:text-accent placeholder:font-normal font-normal"
                   />
                 </div>
-                {}
                 <div className="space-y-2">
                   <label
                     htmlFor="message"
@@ -280,7 +262,6 @@ const ContactPage = () => (
                     defaultValue={""}
                   />
                 </div>
-                {}
                 <fieldset className="flex items-center gap-2 mb-4">
                   <label htmlFor="terms" className="flex items-center gap-x-3">
                     <input
@@ -304,7 +285,6 @@ const ContactPage = () => (
                     </a>
                   </label>
                 </fieldset>
-                {}
                 <button
                   type="submit"
                   className="btn btn-md btn-secondary w-full hover:btn-primary dark:btn-accent before:content-none first-letter:uppercase"
@@ -317,7 +297,6 @@ const ContactPage = () => (
         </div>
       </div>
     </section>
-    {}
     <section
       className="md:pt-[80px] lg:pt-[100px] pb-[100px] md:pb-[150px] lg:pb-[200px]"
       aria-label="Location Map"
@@ -341,7 +320,6 @@ const ContactPage = () => (
         </div>
       </div>
     </section>
-    {}
     <section
       className="py-[50px] md:py-20 lg:py-28 dark:bg-background-5 bg-white"
       aria-label="Use Case Overview"

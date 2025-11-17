@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   description:
     "Ecadoc AI pairs architectural insight with computer vision to read, measure, and annotate every drawing with search-ready context.",
   alternates: {
-    canonical: "https:
+    canonical: "https://www.ecadoc.ai",
   },
   openGraph: {
     type: "website",

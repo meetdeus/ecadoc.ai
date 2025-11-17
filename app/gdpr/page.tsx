@@ -4,18 +4,16 @@ export const metadata: Metadata = {
   title: "Ecadoc AI — Intelligent Blueprint Reader",
   description:
     "Ecadoc AI understands architectural drawings in seconds. Ask questions, extract measurements, and auto-annotate PDFs, CAD exports, and scans with vision-grade accuracy.",
-  alternates: { canonical: "https:,
+  alternates: { canonical: "https://www.ecadoc.ai/gdpr" },
 };
 
 const GdprPage = () => (
   <main className="bg-background-3 dark:bg-background-7">
-    {}
     <section
       className="xl:pt-[180px] md:pt-42 sm:pt-36 pt-32 pt-24 md:pt-36 lg:pt-40 xl:pt-[200px]"
       aria-label="Page hero section"
     >
       <div className="main-container">
-        {}
         <div className="text-center space-y-2 pb-14 lg:pb-[72px]">
           <span
             data-ns-animate
@@ -55,7 +53,6 @@ const GdprPage = () => (
         </div>
       </div>
     </section>
-    {}
     <section className="pb-[200px] pt-[100px]">
       <div className="main-container mb-[70px]">
         <div className="space-y-3 text-center">
@@ -383,7 +380,6 @@ const GdprPage = () => (
         </div>
       </div>
     </section>
-    {}
     <section
       className="py-[50px] md:py-20 lg:py-28 dark:bg-background-5 bg-white"
       aria-label="Use Case Overview"

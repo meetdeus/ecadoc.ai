@@ -4,7 +4,7 @@ export const metadata: Metadata = {
   title: "404 Not Found - NextSaaS",
   description:
     "NextSaaS is a collection of premium Tailwind templates for SaaS businesses with responsive layouts, auth flows, pricing pages, and modern UI components.",
-  alternates: { canonical: "https:,
+  alternates: { canonical: "https://next-sass-html.vercel.app/" },
   openGraph: {
     type: "website",
     url: "https://next-sass-html.vercel.app/",
@@ -27,9 +27,7 @@ export const metadata: Metadata = {
     title: "NextSaaS - Software, SaaS & Startup Tailwind Template",
     description:
       "Explore the NextSaaS Tailwind template pack for modern SaaS marketing sites, authentication flows, and pricing pages.",
-    images: [
-      "https:
-    ],
+    images: ["https://images.prismic.io/staticmania/aPD-K55xUNkB2D2X_og-image.jpg"],
   },
 };
 
