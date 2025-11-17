@@ -94,7 +94,7 @@ export const RevealController = () => {
             heroPerspective.style.opacity = '1';
             heroPerspective.style.filter = 'blur(0px)';
             heroPerspective.style.transform = 'perspective(1200px) scale(1) rotateX(0deg)';
-            heroObserver.disconnect();
+            heroObserver?.disconnect();
           });
         },
         { threshold: 0.4 }
