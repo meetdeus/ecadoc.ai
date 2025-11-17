@@ -997,7 +997,7 @@ const FaqPage = () => (
               Try Ecadoc free today and
               <br className="hidden lg:block" />
               watch your
-              <span className="text-primary-500">projects move.</span>
+              <span className="text-primary-500"> projects move.</span>
             </h2>
             <p
               data-ns-animate

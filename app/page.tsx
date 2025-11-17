@@ -158,7 +158,7 @@ const HomePage = () => (
           <h2 data-ns-animate data-delay="0.2" className="mb-3">
             Elevate your drawing and project <br className="hidden md:block" />
             reviews with
-            <span className="text-primary-500 inline-block">Ecadoc AI.</span>
+            <span className="text-primary-500 inline-block"> Ecadoc AI.</span>
           </h2>
           <p
             data-ns-animate
@@ -848,7 +848,7 @@ const HomePage = () => (
             Try Ecadoc free today and
             <br className="hidden lg:block" />
             watch your
-            <span className="text-primary-500">projects move.</span>
+            <span className="text-primary-500"> projects move.</span>
           </h2>
           <p
             data-ns-animate
