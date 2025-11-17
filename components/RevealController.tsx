@@ -78,29 +78,18 @@ export const RevealController = () => {
       .filter((el) => !el.hasAttribute('data-instant'))
       .forEach((el) => observer.observe(el));
 
-    let heroObserver: IntersectionObserver | null = null;
     const heroPerspective = document.querySelector<HTMLElement>('.hero-perspective');
     if (heroPerspective) {
       heroPerspective.style.opacity = '0';
       heroPerspective.style.filter = 'blur(20px)';
       heroPerspective.style.transform = 'perspective(1200px) scale(0.896871) rotateX(14.4381deg)';
-
-      heroObserver = new IntersectionObserver(
-        (entries) => {
-          entries.forEach((entry) => {
-            if (!entry.isIntersecting) return;
-            heroPerspective.style.transition = 'opacity 0.8s ease, filter 0.8s ease, transform 0.8s ease';
-            heroPerspective.style.transitionDelay = '0.7s';
-            heroPerspective.style.opacity = '1';
-            heroPerspective.style.filter = 'blur(0px)';
-            heroPerspective.style.transform = 'perspective(1200px) scale(1) rotateX(0deg)';
-            heroObserver?.disconnect();
-          });
-        },
-        { threshold: 0.4 }
-      );
-
-      heroObserver.observe(heroPerspective);
+      requestAnimationFrame(() => {
+        heroPerspective.style.transition = 'opacity 0.8s ease, filter 0.8s ease, transform 0.8s ease';
+        heroPerspective.style.transitionDelay = '0.7s';
+        heroPerspective.style.opacity = '1';
+        heroPerspective.style.filter = 'blur(0px)';
+        heroPerspective.style.transform = 'perspective(1200px) scale(1) rotateX(0deg)';
+      });
     }
 
     const heroLines = Array.from(document.querySelectorAll<HTMLElement>('[data-hero-line]'));
@@ -117,7 +106,6 @@ export const RevealController = () => {
 
     return () => {
       observer.disconnect();
-      heroObserver?.disconnect();
     };
   }, [pathname]);
 

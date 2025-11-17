@@ -1,3 +1,5 @@
+import { Marquee } from '@/components/Marquee';
+
 const HomePage = () => (
 <main className="bg-background-2 dark:bg-background-7">
   {/* =========================
@@ -361,60 +363,60 @@ Integration section
           </a>
           <div className="absolute left-0 top-0 h-full w-[15%] md:w-[20%] bg-gradient-to-r from-background-2 to-transparent dark:from-background-5 z-40" />
           <div className="absolute right-0 top-0 h-full w-[15%] md:w-[20%] bg-gradient-to-l from-background-2 to-transparent dark:from-background-5 z-40" />
-          <div className="logos-marquee-container">
+          <Marquee direction="left" duration={32}>
             <div className="flex items-center gap-x-6">
               <figure className="bg-white dark:bg-background-7 rounded-2xl size-12 md:size-20 lg:size-24 flex items-center justify-center ml-6 p-3">
-                <img src="/images/notion.svg" alt="notion-icon " />
+                <img src="/images/notion.svg" alt="Notion" />
               </figure>
               <figure className="bg-white dark:bg-background-7 rounded-2xl size-12 md:size-20 lg:size-24 flex items-center justify-center p-3">
-                <img src="/images/dropbox.svg" alt="dropbox-icon " />
+                <img src="/images/dropbox.svg" alt="Dropbox" />
               </figure>
               <figure className="bg-white dark:bg-background-7 rounded-2xl size-12 md:size-20 lg:size-24 flex items-center justify-center p-3">
-                <img src="/images/svelte.svg" alt="Notion " />
+                <img src="/images/svelte.svg" alt="Svelte" />
               </figure>
               <figure className="bg-white dark:bg-background-7 rounded-2xl size-12 md:size-20 lg:size-24 flex items-center justify-center p-3">
-                <img src="/images/slack.svg" alt="Notion " />
+                <img src="/images/slack.svg" alt="Slack" />
               </figure>
               <figure className="bg-white dark:bg-background-7 rounded-2xl size-12 md:size-20 lg:size-24 flex items-center justify-center p-3">
-                <img src="/images/asana.svg" alt="Notion " />
+                <img src="/images/asana.svg" alt="Asana" />
               </figure>
             </div>
-          </div>
-          <div className="logos-right-marquee-container">
+          </Marquee>
+          <Marquee direction="right" duration={34}>
             <div className="flex items-center gap-x-6">
               <figure className="bg-white dark:bg-background-7 rounded-2xl size-12 md:size-20 lg:size-24 flex items-center justify-center ml-6 p-3">
-                <img src="/images/angle.svg" alt="Notion " />
+                <img src="/images/angle.svg" alt="Angle" />
               </figure>
               <figure className="bg-white dark:bg-background-7 rounded-2xl size-12 md:size-20 lg:size-24 flex items-center justify-center p-3">
-                <img src="/images/notion.svg" alt="Notion " />
+                <img src="/images/notion.svg" alt="Notion" />
               </figure>
               <figure className="bg-white dark:bg-background-7 rounded-2xl size-12 md:size-20 lg:size-24 flex items-center justify-center p-3">
-                <img src="/images/reddit.svg" alt="Notion " />
+                <img src="/images/reddit.svg" alt="Reddit" />
               </figure>
               <figure className="bg-white dark:bg-background-7 rounded-2xl size-12 md:size-20 lg:size-24 flex items-center justify-center p-3">
-                <img src="/images/dropbox.svg" alt="Notion " />
+                <img src="/images/dropbox.svg" alt="Dropbox" />
               </figure>
             </div>
-          </div>
-          <div className="logos-marquee-container">
+          </Marquee>
+          <Marquee direction="left" duration={36}>
             <div className="flex items-center gap-x-6">
               <figure className="bg-white dark:bg-background-7 rounded-2xl size-12 md:size-20 lg:size-24 flex items-center justify-center ml-6 p-3">
-                <img src="/images/slack.svg" alt="Notion " />
+                <img src="/images/slack.svg" alt="Slack" />
               </figure>
               <figure className="bg-white dark:bg-background-7 rounded-2xl size-12 md:size-20 lg:size-24 flex items-center justify-center p-3">
-                <img src="/images/drive-google.svg" alt="drive-google" />
+                <img src="/images/drive-google.svg" alt="Google Drive" />
               </figure>
               <figure className="bg-white dark:bg-background-7 rounded-2xl size-12 md:size-20 lg:size-24 flex items-center justify-center p-3">
-                <img src="/images/spanchat-v2.svg" alt="spanchat-logo" />
+                <img src="/images/spanchat-v2.svg" alt="Span chat logo" />
               </figure>
               <figure className="bg-white dark:bg-background-7 rounded-2xl size-12 md:size-20 lg:size-24 flex items-center justify-center p-3">
-                <img src="/images/dropbox.svg" alt="Notion " />
+                <img src="/images/dropbox.svg" alt="Dropbox" />
               </figure>
               <figure className="bg-white dark:bg-background-7 rounded-2xl size-12 md:size-20 lg:size-24 flex items-center justify-center p-3">
-                <img src="/images/area.svg" alt="Notion " />
+                <img src="/images/area.svg" alt="Area" />
               </figure>
             </div>
-          </div>
+          </Marquee>
         </div>
       </article>
     </div>
