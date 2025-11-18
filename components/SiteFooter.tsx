@@ -34,6 +34,7 @@ export const SiteFooter = () => (
   <footer className="bg-secondary dark:bg-background-8 relative overflow-hidden">
     <figure
       data-ns-animate
+      data-instant
       data-delay="0.4"
       data-duration="0.8"
       data-direction="right"
@@ -48,6 +49,7 @@ export const SiteFooter = () => (
     </figure>
     <figure
       data-ns-animate
+      data-instant
       data-delay="0.4"
       data-duration="0.8"
       data-direction="left"
