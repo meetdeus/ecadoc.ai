@@ -22,6 +22,11 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://www.ecadoc.ai",
   },
+  icons: {
+    icon: "/images/favicon.png",
+    shortcut: "/images/favicon.png",
+    apple: "/images/apple-touch-icon.png",
+  },
   openGraph: {
     type: "website",
     title: "Ecadoc AI — Intelligent Blueprint Reader",
