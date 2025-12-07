@@ -1,4 +1,4 @@
-# Ecadoc AI Landing Experience
+#Ecadoc AI Landing Experience
 
 Ecadoc AI is a marketing site for the blueprint-intelligence platform. The site highlights hero messaging, interactive feature stories, animated tool marquees, legal content, and a contact workflow built on top of the Next.js 15 App Router.
 
